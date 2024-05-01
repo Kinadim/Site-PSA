@@ -1,0 +1,73 @@
+body{
+  background-image: url(stellantis_fond.jpg)
+}
+
+@media screen and (max-width: 991px) {
+  #carousel {
+    display: none;
+  }
+  #photo_menu {
+    display: block!important;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  #navi{
+    width: 236px;
+  }
+}
+
+.side{
+  margin: 5px;
+  margin-right : 40px;
+  padding: 8px;
+  width: 150;
+  text-align: justify;
+  text-justify: inter-word;
+  background-color: #243782;
+}
+
+.carte{
+  padding : 5px;
+  margin : 10px;
+}
+
+.menu{
+  background-color:#243782 ;
+  padding: 0;
+}
+
+.navbar {
+  display: block;
+}
+
+.logo{
+  width: 300px;
+  height: auto;
+  padding: 0;
+}
+
+.dropdown-menu {
+  position: static !important;
+  
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media screen and (max-width: 1000px){
+  .contact{
+    display: block !important;
+    margin:0 auto;
+  }
+}
+
+article p {
+  color: white;
+}
+
+.strat {
+  background-color:#243782 ;
+}
